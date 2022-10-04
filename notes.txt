@@ -1,0 +1,11 @@
+parameters = {
+    "lat": MY_LAT,
+    "lng": MY_LNG,
+    "formatted": 0
+}
+response = requests.get("website", params=)
+
+In the above syntax, params is used to identify which pieces of data that you want to obtain from the API
+The params must be in json format as a dictionary
+
+Should have used a function to make reading the code easier
